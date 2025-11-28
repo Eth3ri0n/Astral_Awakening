@@ -1,0 +1,9 @@
+Acknowledgment
+
+Although this asset is released under a very permissive license (WTFPL, a permissive license similar to public domain), I would like to acknowledge the original creator - Jan Mróz:
+https://gitlab.com/janmroz97/stars-skybox-shader/
+
+The skybox shader has been modified by me to work in VR and to allow specifying the moon color.
+
+Thank you very much | Ngā mihi nui
+Raphaël Marczak
