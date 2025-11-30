@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextSceneName: Scene_ImpossibleWorld
-  requiredStayTime: 1.5
+  requiredStayTime: 0.5
 --- !u!4 &7078806749715183882 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -220445838157354833, guid: a9698f36d897fa04294e475ab9ae7644, type: 3}

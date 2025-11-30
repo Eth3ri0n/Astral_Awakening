@@ -50,16 +50,20 @@ public class MuseumRelicTrigger : MonoBehaviour
 
     private void Update()
     {
-        if (_hasTeleported || !_playerInside)
-            return;
+        TeleportToNextScene(nextSceneName);
+    }
+
+    public void TeleportToNextScene(string sceneName)
+    {
+        if (_hasTeleported || !_playerInside) return;
 
         _timer += Time.deltaTime;
 
         if (_timer >= requiredStayTime)
         {
             _hasTeleported = true;
-            Debug.Log("[Relic] Temps atteint -> chargement scène : " + nextSceneName);
-            SceneManager.LoadScene(nextSceneName);
+            Debug.Log("[Relic] Temps atteint -> chargement scène : " + sceneName);
+            SceneManager.LoadScene(sceneName);
         }
     }
 }
