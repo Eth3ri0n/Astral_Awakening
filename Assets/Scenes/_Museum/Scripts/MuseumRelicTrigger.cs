@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MuseumRelicTrigger : MonoBehaviour
 {
     [SerializeField] private string nextSceneName;
-    [SerializeField] private float requiredStayTime = 1.5f; // temps à rester près de la relique
+    [SerializeField] private float requiredStayTime = 1.5f; // temps ï¿½ rester prï¿½s de la relique
 
     private float _timer = 0f;
     private bool _playerInside = false;
@@ -62,7 +62,7 @@ public class MuseumRelicTrigger : MonoBehaviour
         if (_timer >= requiredStayTime)
         {
             _hasTeleported = true;
-            Debug.Log("[Relic] Temps atteint -> chargement scène : " + sceneName);
+            Debug.Log("[Relic] Temps atteint -> chargement scï¿½ne : " + sceneName);
             SceneManager.LoadScene(sceneName);
         }
     }
